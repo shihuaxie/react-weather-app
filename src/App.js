@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
+import coldBg from "./assets/cold.jpg";
+import hotBg from "./assets/hot.jpg";
 function App() {
-  return (
-    <div className="App">
-      <input></input>
-    </div>
-  );
+    return (
+        <div className="container">
+           hello
+        </div>
+    );
 }
 
 export default App;
