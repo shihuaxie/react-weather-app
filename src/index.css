@@ -1,5 +1,5 @@
 :root {
-    --section-overlay: rgba(0, 0, 0, 0.7);
+    --section-overlay: rgba(225, 190, 231, 0.7);
     --background-overlay: rgba(0, 0, 0, 0.2)
 }
 
@@ -51,12 +51,12 @@
 }
 
 .section__inputs > input {
-    border: 0.8px solid white;
+    border: 1px solid white;
     border-radius: 0.4rem;
     background-color: transparent;
     color: white;
     padding: 0.5rem;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 200;
 }
 
@@ -68,7 +68,7 @@
     padding: 10px 50px;
     border: none;
     border-radius: 0.4rem;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
     background-color: white;
 }
@@ -86,14 +86,14 @@
 }
 
 .icon>h3{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 300;
     text-transform: capitalize;
 }
 .icon>img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
-.icon>h1{
-    font-size: 0px;
+.temperature>h1{
+    font-size: 60px;
 }
